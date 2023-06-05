@@ -772,7 +772,7 @@
           "moved": 1,
           "ringId": "adopt",
           "date": "2023-06-05",
-          "description": "Works out-of-the-box with Ruby 3. Actively supported, unlike Synchrony (which is supplants)."
+          "description": "Works out-of-the-box with Ruby 3. Actively supported, unlike Synchrony (which it supplants)."
         },
         {
           "moved": 1,
