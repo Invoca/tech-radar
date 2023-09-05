@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="radar-deprecated.js"></script>
+<script src="radar.js"></script>
 
 <link rel="stylesheet" href="radar.css">
 </head>
@@ -31,22 +31,27 @@
     radar_visualization({
       svg_id: "radar",
       width: 1450,
-      height: 1000,
+      height: 900,
       colors: {
         background: "#fff",
-        grid: "#bbb",
+        grid: "#ededed",
         inactive: "#ddd"
       },
       print_layout: true,
-      title: "Invoca Front End Tech Radar",
-
+      title: "Invoca Front-end Tech Radar",
       // supplied via config.frontend.json
-      quadrants: data.quadrants,
       rings: data.rings,
+      quadrants: data.quadrants,
       entries: data.entries
     });
   });
 </script>
+
+<div class="active-area">
+  <p id="active-title"></p>
+  <p id="active-description"></p>
+  <div id="active-timeline"></div>
+</div>
 
 <table>
 <tr>

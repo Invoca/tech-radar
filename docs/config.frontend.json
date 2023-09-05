@@ -1,234 +1,512 @@
 {
-  "quadrants": [
-    { "name": "Frameworks" },
-    { "name": "Languages" },
-    { "name": "Libraries" },
-    { "name": "Testing" }
-  ],
   "rings": [
-    { "name": "ADOPT", "color": "#93c47d" },
-    { "name": "TRIAL", "color": "#fbdb84" },
-    { "name": "ASSESS", "color": "#efafa9" },
-    { "name": "HOLD", "color": "#d33030" }
+    { "id": "adopt", "name": "Adopt", "color": "#93c47d" },
+    { "id": "trial", "name": "Trial", "color": "#fbdb84" },
+    { "id": "assess", "name": "Assess", "color": "#efafa9" },
+    { "id": "hold", "name": "Hold", "color": "#d33030" }
   ],
-  "print_layout": true,
+  "quadrants": [
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "languages", "name": "Languages" },
+    { "id": "libraries", "name": "Libraries" },
+    { "id": "testing", "name": "Testing" }
+  ],
   "entries": [
     {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "React",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "react",
+      "id": "react",
+      "title": "React",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Titan",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "titan",
+      "id": "titan",
+      "title": "Titan",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "Backdraft",
-      "active": true,
-      "moved": -1
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "backdraft",
+      "id": "backdraft",
+      "title": "Backdraft",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "JavaScript",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "javascript",
+      "id": "javascript",
+      "title": "JavaScript",
+      "quadrant": "languages",
+      "description": ""
     },
     {
-      "quadrant": 1,
-      "ring": 3,
-      "label": "CoffeeScript",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "coffeescript",
+      "id": "coffeescript",
+      "title": "CoffeeScript",
+      "quadrant": "languages",
+      "description": ""
     },
     {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "TypeScript",
-      "active": true,
-      "moved": 1
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "typescript",
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "jQuery",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jquery",
+      "id": "jquery",
+      "title": "JQuery",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Underscore",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "underscore",
+      "id": "underscore",
+      "title": "Underscore",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Lodash",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "lodash",
+      "id": "lodash",
+      "title": "Lodash",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "ApolloClient",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "apollo",
+      "id": "apollo",
+      "title": "Apollo",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "D3",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "d3",
+      "id": "d3",
+      "title": "D3",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Grunt",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "grunt",
+      "id": "grunt",
+      "title": "Grunt",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Moment",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "moment",
+      "id": "moment",
+      "title": "Moment",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Jasmine",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jasmine",
+      "id": "jasmine",
+      "title": "Jasmine",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Karma",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "karma",
+      "id": "karma",
+      "title": "Karma",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Jest",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jest",
+      "id": "jest",
+      "title": "Jest",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Enzyme",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "enzyme",
+      "id": "enzyme",
+      "title": "Enzyme",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "React Testing Library",
-      "active": true,
-      "moved": 1
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "react_testing_library",
+      "id": "react_testing_library",
+      "title": "React Testing Library",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "NodeJS",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "nodejs",
+      "id": "nodejs",
+      "title": "NodeJS",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Prettier",
-      "active": true,
-      "moved": 1
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "prettier",
+      "id": "prettier",
+      "title": "Prettier",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Honeybadger",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "honeybadger",
+      "id": "honeybadger",
+      "title": "Honeybadger",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "MaterialUI",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "materialui",
+      "id": "materialui",
+      "title": "MaterialUI",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Chromatic",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "chromatic",
+      "id": "chromatic",
+      "title": "Chromatic",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Storybook",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "storybook",
+      "id": "storybook",
+      "title": "Storybook",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Lerna",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "lerna",
+      "id": "lerna",
+      "title": "Lerna",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Github Actions",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "github_actions",
+      "id": "github_actions",
+      "title": "Github Actions",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Webpack",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "webpack",
+      "id": "webpack",
+      "title": "Webpack",
+      "quadrant": "frameworks",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "ESLint",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "eslint",
+      "id": "eslint",
+      "title": "ESLint",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "SASS / SCSS",
-      "active": true,
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "sass_scss",
+      "id": "sass_scss",
+      "title": "SASS / SCSS",
+      "quadrant": "libraries",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "Playwright",
-      "active": true,
-      "moved": 1
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "playwright",
+      "id": "playwright",
+      "title": "Playwright",
+      "quadrant": "testing",
+      "description": ""
     },
     {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Cypress",
-      "active": true,
-      "moved": -1
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "cypress",
+      "id": "cypress",
+      "title": "Cypress",
+      "quadrant": "testing",
+      "description": ""
     }
   ]
 }
