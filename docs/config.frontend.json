@@ -1,0 +1,304 @@
+{
+  "rings": [
+    { "id": "adopt", "name": "Adopt", "color": "#93c47d" },
+    { "id": "trial", "name": "Trial", "color": "#fbdb84" },
+    { "id": "assess", "name": "Assess", "color": "#efafa9" },
+    { "id": "hold", "name": "Hold", "color": "#d33030" }
+  ],
+  "quadrants": [
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "languages", "name": "Languages" },
+    { "id": "libraries", "name": "Libraries" },
+    { "id": "testing", "name": "Testing" }
+  ],
+  "entries": [
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "react",
+      "id": "react",
+      "title": "React",
+      "quadrant": "frameworks",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "titan",
+      "id": "titan",
+      "title": "Titan",
+      "quadrant": "frameworks",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "backdraft",
+      "id": "backdraft",
+      "title": "Backdraft",
+      "quadrant": "frameworks",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "javascript",
+      "id": "javascript",
+      "title": "JavaScript",
+      "quadrant": "languages",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "coffeescript",
+      "id": "coffeescript",
+      "title": "CoffeeScript",
+      "quadrant": "languages",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "typescript",
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jquery",
+      "id": "jquery",
+      "title": "JQuery",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "underscore",
+      "id": "underscore",
+      "title": "Underscore",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "lodash",
+      "id": "lodash",
+      "title": "Lodash",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "apollo",
+      "id": "apollo",
+      "title": "Apollo",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "d3",
+      "id": "d3",
+      "title": "D3",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "grunt",
+      "id": "grunt",
+      "title": "Grunt",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "moment",
+      "id": "moment",
+      "title": "Moment",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jasmine",
+      "id": "jasmine",
+      "title": "Jasmine",
+      "quadrant": "testing",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "hold",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "karma",
+      "id": "karma",
+      "title": "Karma",
+      "quadrant": "testing",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "jest",
+      "id": "jest",
+      "title": "Jest",
+      "quadrant": "testing",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "enzyme",
+      "id": "enzyme",
+      "title": "Enzyme",
+      "quadrant": "testing",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2022-05-01",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "react_testing_library",
+      "id": "react_testing_library",
+      "title": "React Testing Library",
+      "quadrant": "testing",
+      "description": ""
+    }
+  ]
+}
