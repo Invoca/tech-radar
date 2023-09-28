@@ -845,6 +845,12 @@
     {
       "timeline": [
         {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-09-26",
+          "description": "Supported for fast iteration in a Rails service if wrapped by ActiveJob, and eventually migrate to something heavier like Sidekiq if scale requires"
+        },
+        {
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
@@ -856,7 +862,7 @@
       "id": "delayed_job",
       "title": "DelayedJob",
       "quadrant": "languages",
-      "description": ""
+      "description": "A simple interface for marshaling a Ruby method call into a database row so that it can be invoked later."
     },
     {
       "timeline": [
