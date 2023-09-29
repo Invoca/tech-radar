@@ -21,7 +21,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Functional_programming",
       "key": "functional",
       "id": "functional",
       "title": "Functional Programming",
@@ -37,7 +37,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Immutable_object",
       "key": "immutable",
       "id": "immutable",
       "title": "Immutable",
@@ -53,7 +53,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Object-oriented_programming",
       "key": "object_oriented",
       "id": "object_oriented",
       "title": "Object Oriented",
@@ -69,7 +69,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Composability",
       "key": "composable",
       "id": "composable",
       "title": "Composable",
@@ -85,7 +85,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Orthogonality_(programming)",
       "key": "orthogonal",
       "id": "orthogonal",
       "title": "Orthogonal",
@@ -101,7 +101,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59535000014/Modularize+our+web+monolith",
       "key": "service-oriented-componentized",
       "id": "service-oriented-componentized",
       "title": "Service-Oriented/Componentized",
@@ -117,7 +117,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Monolithic_application",
       "key": "monolithic",
       "id": "monolithic",
       "title": "monolithic",
@@ -149,7 +149,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Cooperative_multitasking",
       "key": "cooperative_concurrency",
       "id": "cooperative_concurrency",
       "title": "Cooperative Concurrency",
@@ -213,7 +213,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/Design_by_contract",
       "key": "design_by_contract",
       "id": "design_by_contract",
       "title": "Design By Contract",
@@ -229,7 +229,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2223079626/Test+Driven+Development+TDD",
       "key": "tdd",
       "id": "tdd",
       "title": "TDD",
@@ -245,7 +245,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/308707370/Kubernetes+at+Invoca+k8s",
       "key": "kubernetes",
       "id": "kubernetes",
       "title": "Kubernetes",
@@ -277,7 +277,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/63995915/Grafana",
       "key": "grafana",
       "id": "grafana",
       "title": "Grafana",
@@ -293,7 +293,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/54001777/Vault",
       "key": "vault",
       "id": "vault",
       "title": "Vault",
@@ -309,7 +309,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/25296992/Consul",
       "key": "consul",
       "id": "consul",
       "title": "Consul",
@@ -338,7 +338,7 @@
           "moved": 0,
           "ringId": "trial",
           "date": "2023-04-01",
-          "description": "AWS DocumentDB is now being used in production: Recording Proxy Service"
+          "description": "AWS DocumentDB is now being used in production: Recording Proxy Service (https://invoca.atlassian.net/wiki/spaces/DEV/pages/59636678734/Call+Recording+Proxy)"
         }
       ],
       "url": "#",
@@ -346,7 +346,7 @@
       "id": "aws_documentdb",
       "title": "AWS DocumentDB",
       "quadrant": "infrastructure",
-      "description": "Amazon DocumentDB (with MongoDB compatibility) is a fully managed, scalable, highly durable, and highly available document database service that offers high performance, high availability, and securitye"
+      "description": "Amazon DocumentDB (with MongoDB compatibility) is a fully managed, scalable, highly durable, and highly available document database service that offers high performance, high availability, and security. Used by Recording Proxy Service (https://invoca.atlassian.net/wiki/spaces/DEV/pages/59636678734/Call+Recording+Proxy)"
     },
     {
       "timeline": [
@@ -389,7 +389,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2159444369/Kamailio",
       "key": "kamailio",
       "id": "kamailio",
       "title": "Kamailio",
@@ -411,7 +411,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59328168020",
       "key": "nginx",
       "id": "nginx",
       "title": "Nginx",
@@ -427,7 +427,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59563343888/Logstash+of+ELK+-+App+SRE",
       "key": "logstash",
       "id": "logstash",
       "title": "Logstash",
@@ -443,7 +443,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/595132519/Centralized+Logging+ELK#Kibana",
       "key": "kibana",
       "id": "kibana",
       "title": "Kibana",
@@ -459,7 +459,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/611909896/Graphite",
       "key": "graphite",
       "id": "graphite",
       "title": "Graphite",
@@ -475,7 +475,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/426868744/StatsD",
       "key": "statsd",
       "id": "statsd",
       "title": "Statsd",
@@ -491,7 +491,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/1011253259/Prometheus",
       "key": "prometheus",
       "id": "prometheus",
       "title": "Prometheus",
@@ -507,7 +507,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/6356996/Chef",
       "key": "chef",
       "id": "chef",
       "title": "Chef",
@@ -523,7 +523,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59587952770/Jsonnet",
       "key": "jsonnet",
       "id": "jsonnet",
       "title": "Jsonnet",
@@ -539,7 +539,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59463237730/Tanka",
       "key": "tanka",
       "id": "tanka",
       "title": "Tanka",
@@ -555,7 +555,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59623932015/Ruby",
       "key": "ruby",
       "id": "ruby",
       "title": "Ruby",
@@ -571,7 +571,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59579334958/Python",
       "key": "python",
       "id": "python",
       "title": "Python",
@@ -587,7 +587,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/28508166/Front-end+Platform+Atlas",
       "key": "javaScript",
       "id": "javaScript",
       "title": "JavaScript",
@@ -656,7 +656,7 @@
       "id": "rust",
       "title": "Rust",
       "quadrant": "languages",
-      "description": ""
+      "description": "Used in production by PNAPI Bulk Proxy (https://invoca.atlassian.net/wiki/spaces/DEV/pages/59743568188/PNAPI+Bulk+Proxy+Service+Rust)"
     },
     {
       "timeline": [
@@ -683,7 +683,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2197291201/Rails+at+Invoca+High+Level+Overview",
       "key": "ruby_on_rails",
       "id": "ruby_on_rails",
       "title": "Ruby on Rails",
@@ -737,7 +737,7 @@
           "description": "Should not be used on its own. If doing concurrent programming, use with EM::Synchrony"
         }
       ],
-      "url": "#",
+      "url": "https://github.com/eventmachine/eventmachine",
       "key": "event_machine",
       "id": "event_machine",
       "title": "Event Machine",
@@ -759,7 +759,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://github.com/igrigorik/em-synchrony",
       "key": "em_synchrony",
       "id": "em_synchrony",
       "title": "Event Machine + Synchrony",
@@ -835,7 +835,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/84021013/Sidekiq",
       "key": "sidekiq",
       "id": "sidekiq",
       "title": "Sidekiq",
@@ -857,7 +857,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/86938303/Delayed+Jobs",
       "key": "delayed_job",
       "id": "delayed_job",
       "title": "DelayedJob",
@@ -873,7 +873,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59328168020/Unicorn+Nginx+Service",
       "key": "unicorn",
       "id": "unicorn",
       "title": "Unicorn",
@@ -927,7 +927,7 @@
           "description": "Supplanted by rspec."
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/16451210/Ruby+Tests",
       "key": "minitest",
       "id": "minitest",
       "title": "MiniTest",
@@ -943,7 +943,7 @@
           "description": "Mocking and stubbing library. Deprecated in favor of rspec-mocks."
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/605978625/RR+Mocks",
       "key": "rr",
       "id": "rr",
       "title": "RR",
@@ -991,7 +991,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/5799940/MySQL",
       "key": "mysql",
       "id": "mysql",
       "title": "MySQL",
@@ -1023,7 +1023,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2043707717/Elasticsearch+Domains+and+Clusters",
       "key": "elasticsearch",
       "id": "elasticsearch",
       "title": "ElasticSearch",
@@ -1039,7 +1039,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/80576548/Kafka",
       "key": "kafka",
       "id": "kafka",
       "title": "Kafka",
@@ -1071,7 +1071,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/20250737/Redis",
       "key": "redis",
       "id": "redis",
       "title": "Redis",
@@ -1087,7 +1087,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/84486097/Memcached",
       "key": "memcache",
       "id": "memcache",
       "title": "Memcache",
@@ -1103,7 +1103,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/598638663/ElastiCache",
       "key": "aws_elasticache",
       "id": "aws_elasticachee",
       "title": "AWS ElastiCache",
@@ -1119,7 +1119,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2264072260/Data+Storage#S3",
       "key": "aws_s3",
       "id": "aws_s3",
       "title": "AWS S3",
@@ -1183,7 +1183,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59249491995/BunnyBus+RabbitMQ",
       "key": "rabbitmq",
       "id": "rabbitmq",
       "title": "RabbitMQ",
@@ -1199,7 +1199,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59418017802/Databricks",
       "key": "databricks",
       "id": "databricks",
       "title": "DataBricks",
@@ -1215,7 +1215,7 @@
           "description": ""
         }
       ],
-      "url": "https://github.com/kubernetes/kops",
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/1176011904/KOPS+Upgrade",
       "key": "kops",
       "id": "kops",
       "title": "Kops",

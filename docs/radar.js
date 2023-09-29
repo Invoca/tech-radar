@@ -379,6 +379,12 @@ function radar_visualization(config) {
     document.getElementById("active-description").innerHTML = d.description || "<i>No description</i>";
     document.getElementById("active-timeline").innerHTML = renderTimeline(d);
 
+    if (d.url) {
+      document.getElementById("active-url").innerHTML = "<a href='" + d.url + "'>" + d.url + "</a>";
+    } else {
+      document.getElementById("active-url").innerHTML = "";
+    }
+
     if (updateUrl) {
       history.pushState(null, null, "#" + d.key);
       d3.event.preventDefault();
@@ -465,12 +471,6 @@ function radar_visualization(config) {
   // configure each blip
   blips.each(function(d) {
     let blip = d3.select(this);
-
-    // blip link
-    if (d.hasOwnProperty("url")) {
-      blip = blip.append("a")
-        .attr("href", d.url);
-    }
 
     // blip shape
     if (d.timeline[0].moved) {
