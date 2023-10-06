@@ -26,7 +26,7 @@
       "id": "functional",
       "title": "Functional Programming",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "A programming paradigm where programs are constructed by applying and composing functions."
     },
     {
       "timeline": [
@@ -42,7 +42,7 @@
       "id": "immutable",
       "title": "Immutable",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "An immutable object is an object whose state cannot be modified after it is created. They are inherently thread-safe and are simpler to understand and reason about, plus offer higher security than mutable objects."
     },
     {
       "timeline": [
@@ -58,7 +58,7 @@
       "id": "object_oriented",
       "title": "Object Oriented",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "A programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of methods."
     },
     {
       "timeline": [
@@ -74,7 +74,7 @@
       "id": "composable",
       "title": "Composable",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "A system design principle that deals with the inter-relationships of components. A highly composable system provides components that can be selected and assembled in various combinations to satisfy specific user requirements."
     },
     {
       "timeline": [
@@ -90,7 +90,7 @@
       "id": "orthogonal",
       "title": "Orthogonal",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "Having a small set of composable primitive operations without surprising cross-linkages."
     },
     {
       "timeline": [
@@ -106,7 +106,7 @@
       "id": "service-oriented-componentized",
       "title": "Service-Oriented/Componentized",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "We prefer separating functional domains into independent components (and in many cases as independently deployable services)"
     },
     {
       "timeline": [
@@ -114,7 +114,13 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "We should avoid creating new monoliths where all data is in a single schema and the business logic and UI/API layer is all coupled together."
+        },
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2008-02-01",
+          "description": "For moving fast and getting to market, we started by creating a single monolith application"
         }
       ],
       "url": "https://en.wikipedia.org/wiki/Monolithic_application",
@@ -122,7 +128,7 @@
       "id": "monolithic",
       "title": "monolithic",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "A single unified software application which is self-contained and independent from other applications, but typically lacks flexibility"
     },
     {
       "timeline": [
@@ -154,7 +160,7 @@
       "id": "cooperative_concurrency",
       "title": "Cooperative Concurrency",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "In order to run multiple applications concurrently, processes voluntarily yield control periodically or when idle or logically blocked."
     },
     {
       "timeline": [
@@ -162,15 +168,15 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "For internal APIs, we prefer to use GraphQL. For external APIs, see JSON APIs."
         }
       ],
-      "url": "#",
+      "url": "https://restfulapi.net/",
       "key": "rest_apis",
       "id": "rest_apis",
       "title": "REST APIs",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "REST is an acronym for REpresentational State Transfer and an architectural style for distributed hypermedia systems."
     },
     {
       "timeline": [
@@ -186,7 +192,7 @@
       "id": "json_apis",
       "title": "JSON APIs",
       "quadrant": "design_patterns",
-      "description": "Preferred for external facing APIs. For internal only APIs, consider GraphQL."
+      "description": "Preferred for external facing APIs. For internal only APIs, we prefer to use GraphQL."
     },
     {
       "timeline": [
@@ -202,7 +208,7 @@
       "id": "GraphQL",
       "title": "GraphQL",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API and gives clients the power to ask for exactly what they need and nothing more."
     },
     {
       "timeline": [
@@ -218,14 +224,14 @@
       "id": "design_by_contract",
       "title": "Design By Contract",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "An approach for designing software that requires defining formal, precise and verifiable interface specifications for software components."
     },
     {
       "timeline": [
         {
           "moved": 0,
           "ringId": "adopt",
-          "date": "2022-05-01",
+          "date": "2008-02-01",
           "description": ""
         }
       ],
@@ -234,7 +240,7 @@
       "id": "tdd",
       "title": "TDD",
       "quadrant": "design_patterns",
-      "description": ""
+      "description": "Test Driven Development: a software development process which emphasizes iterative development, starting with a failing test, to reduce time spent chasing bugs and ensure full test coverage at little cost to development speed."
     },
     {
       "timeline": [
@@ -250,10 +256,16 @@
       "id": "kubernetes",
       "title": "Kubernetes",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers"
     },
     {
       "timeline": [
+        {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-09-29",
+          "description": "We are using Strimzi, ECK operator for Elasticsearch, Prometheus Operator and open to other operators to help with k8s management"
+        },
         {
           "moved": 0,
           "ringId": "trial",
@@ -282,7 +294,7 @@
       "id": "grafana",
       "title": "Grafana",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Data visualization tool for our metrics"
     },
     {
       "timeline": [
@@ -298,7 +310,7 @@
       "id": "vault",
       "title": "Vault",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "A secure secret storage server"
     },
     {
       "timeline": [
@@ -314,7 +326,7 @@
       "id": "consul",
       "title": "Consul",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "A distributed service discovery and configuration tool"
     },
     {
       "timeline": [
@@ -354,15 +366,21 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
+          "description": "Put on hold in favor of AWS Application Load Balancers (ALB)"
+        },
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2008-02-01",
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://aws.amazon.com/elasticloadbalancing/",
       "key": "aws_elbs",
       "id": "aws_elbs",
       "title": "AWS ELBs",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "From AWS site: \"Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs)\""
     },
     {
       "timeline": [
@@ -373,12 +391,12 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://aws.amazon.com/elasticloadbalancing/application-load-balancer/",
       "key": "aws_albs",
       "id": "aws_albs",
       "title": "AWS ALBs",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "From AWS site: \"Ideal for advanced load balancing of HTTP and HTTPS traffic, Application Load Balancer provides advanced request routing targeted at delivery of modern application architectures, including microservices and container-based applications.\""
     },
     {
       "timeline": [
@@ -394,7 +412,7 @@
       "id": "kamailio",
       "title": "Kamailio",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Open Source SIP Server for load balancing and more"
     },
     {
       "timeline": [
@@ -416,7 +434,7 @@
       "id": "nginx",
       "title": "Nginx",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "A web server that can also be used as a reverse proxy or load balancer"
     },
     {
       "timeline": [
@@ -432,7 +450,7 @@
       "id": "logstash",
       "title": "Logstash",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "An open source server-side data processing pipeline"
     },
     {
       "timeline": [
@@ -448,7 +466,7 @@
       "id": "kibana",
       "title": "Kibana",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Data visualization dashboard software for Elasticsearch"
     },
     {
       "timeline": [
@@ -456,7 +474,7 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Deprecated in favor of Prometheus and PromQL"
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/611909896/Graphite",
@@ -464,7 +482,7 @@
       "id": "graphite",
       "title": "Graphite",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Collects, stores, and displays time-series data in real time."
     },
     {
       "timeline": [
@@ -472,7 +490,7 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Deprecated in favor of Prometheus and Prometheus exporters"
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/426868744/StatsD",
@@ -496,7 +514,7 @@
       "id": "prometheus",
       "title": "Prometheus",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Open-source monitoring solution"
     },
     {
       "timeline": [
@@ -504,7 +522,7 @@
           "moved": 0,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Deprecated in favor of kubernetes"
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/6356996/Chef",
@@ -512,7 +530,7 @@
       "id": "chef",
       "title": "Chef",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "A configuration management tool and automates how infrastructure is configured, deployed, and managed across networks"
     },
     {
       "timeline": [
@@ -528,7 +546,7 @@
       "id": "jsonnet",
       "title": "Jsonnet",
       "quadrant": "languages",
-      "description": ""
+      "description": "A domain specific configuration language from Google"
     },
     {
       "timeline": [
@@ -544,7 +562,7 @@
       "id": "tanka",
       "title": "Tanka",
       "quadrant": "infrastructure",
-      "description": ""
+      "description": "Configuration utility for Kubernetes clusters powered by Jsonnet"
     },
     {
       "timeline": [
@@ -560,7 +578,7 @@
       "id": "ruby",
       "title": "Ruby",
       "quadrant": "languages",
-      "description": ""
+      "description": "An interpreted, high-level, dynamically typed programming language"
     },
     {
       "timeline": [
@@ -576,7 +594,7 @@
       "id": "python",
       "title": "Python",
       "quadrant": "languages",
-      "description": ""
+      "description": "A high-level, dynamically typed programming language popular for use in data science"
     },
     {
       "timeline": [
@@ -592,10 +610,16 @@
       "id": "javaScript",
       "title": "JavaScript",
       "quadrant": "languages",
-      "description": ""
+      "description": "A dynamically typed programming language that is one of the core technologies of the World Wide Web"
     },
     {
       "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2023-09-29",
+          "description": "Being used as a wrapper of Whisper to power our in-house Speech to Text transcription service"
+        },
         {
           "moved": 0,
           "ringId": "assess",
@@ -603,12 +627,12 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://go.dev/",
       "key": "go",
       "id": "go",
       "title": "Go",
       "quadrant": "languages",
-      "description": ""
+      "description": "A statically typed, compiled high-level programming language designed at Google"
     },
     {
       "timeline": [
@@ -616,34 +640,40 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Prefer Rust or Go over Elixir"
         }
       ],
-      "url": "#",
+      "url": "https://elixir-lang.org/",
       "key": "elixir",
       "id": "elixir",
       "title": "Elixir",
       "quadrant": "languages",
-      "description": ""
+      "description": "A functional, concurrent, high-level programming language that runs on the Erlang VM"
     },
     {
       "timeline": [
         {
           "moved": -1,
           "ringId": "hold",
-          "date": "2022-05-01",
-          "description": ""
+          "date": "2021-05-01",
+          "description": "Used in the DT Platform, not used in the Invoca Platform"
         }
       ],
-      "url": "#",
+      "url": "https://www.php.net/manual/en/intro-whatis.php",
       "key": "php",
       "id": "php",
       "title": "PHP",
       "quadrant": "languages",
-      "description": ""
+      "description": "General-purpose scripting language geared towards web development"
     },
     {
       "timeline": [
+        {
+          "moved": 1,
+          "ringId": "trial",
+          "date": "2023-09-29",
+          "description": "Used in production by PNAPI Bulk Proxy (https://invoca.atlassian.net/wiki/spaces/DEV/pages/59743568188/PNAPI+Bulk+Proxy+Service+Rust)"
+        },
         {
           "moved": 0,
           "ringId": "assess",
@@ -651,12 +681,12 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://www.rust-lang.org/",
       "key": "rust",
       "id": "rust",
       "title": "Rust",
       "quadrant": "languages",
-      "description": "Used in production by PNAPI Bulk Proxy (https://invoca.atlassian.net/wiki/spaces/DEV/pages/59743568188/PNAPI+Bulk+Proxy+Service+Rust)"
+      "description": "A general-purpose programming language that emphasizes performance, type safety, and concurrency. It enforces memory safety, meaning that all references point to valid memory, without requiring the use of automated memory management techniques such as garbage collection."
     },
     {
       "timeline": [
@@ -664,23 +694,23 @@
           "moved": 0,
           "ringId": "adopt",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Used by data science team, Whisper core for transcription service, extensions to some low level systems like Freeswitch"
         }
       ],
-      "url": "#",
+      "url": "https://en.wikipedia.org/wiki/C%2B%2B",
       "key": "cpp",
       "id": "cpp",
       "title": "C++",
       "quadrant": "languages",
-      "description": ""
+      "description": "A general-purpose programming language that is object-oriented and has facilities for low-level memory manipulation. Designed with embedded, resource-constrained software and large systems in mind."
     },
     {
       "timeline": [
         {
           "moved": 0,
           "ringId": "adopt",
-          "date": "2022-05-01",
-          "description": ""
+          "date": "2008-02-01",
+          "description": "Used by our main web application and additional smaller services"
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2197291201/Rails+at+Invoca+High+Level+Overview",
@@ -688,7 +718,7 @@
       "id": "ruby_on_rails",
       "title": "Ruby on Rails",
       "quadrant": "languages",
-      "description": ""
+      "description": "A server-side web application framework written in Ruby"
     },
     {
       "timeline": [
@@ -704,7 +734,7 @@
       "id": "sinatra",
       "title": "Sinatra",
       "quadrant": "languages",
-      "description": ""
+      "description": "Open source web application framework written in Ruby and based on Rack"
     },
     {
       "timeline": [
@@ -712,10 +742,10 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": "Supplanted by Sinatra + Falcon."
+          "description": "Supplanted by Sinatra + Async + Falcon."
         }
       ],
-      "url": "#",
+      "url": "https://github.com/postrank-labs/goliath",
       "key": "goliath",
       "id": "goliath",
       "title": "Goliath",
@@ -742,7 +772,7 @@
       "id": "event_machine",
       "title": "Event Machine",
       "quadrant": "languages",
-      "description": ""
+      "description": "An event-driven I/O and lightweight concurrency library for Ruby"
     },
     {
       "timeline": [
@@ -764,7 +794,7 @@
       "id": "em_synchrony",
       "title": "Event Machine + Synchrony",
       "quadrant": "languages",
-      "description": ""
+      "description": "Collection of convenience classes and primitives to help untangle evented code, plus a number of patched EM clients to make them Fiber aware"
     },
     {
       "timeline": [
@@ -786,7 +816,7 @@
       "id": "async",
       "title": "Async",
       "quadrant": "languages",
-      "description": ""
+      "description": "A composable asynchronous I/O framework for Ruby based on io-event and timers"
     },
     {
       "timeline": [
@@ -812,6 +842,12 @@
     },
     {
       "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2023-09-01",
+          "description": "TypeScript is used in production on the backend (Recording Proxy Service) and the default for Titan app development"
+        },
         {
           "moved": 0,
           "ringId": "trial",
@@ -840,7 +876,7 @@
       "id": "sidekiq",
       "title": "Sidekiq",
       "quadrant": "languages",
-      "description": ""
+      "description": "An open source background job framework written in Ruby"
     },
     {
       "timeline": [
@@ -878,7 +914,7 @@
       "id": "unicorn",
       "title": "Unicorn",
       "quadrant": "languages",
-      "description": ""
+      "description": "A pre-forking Ruby web server"
     },
     {
       "timeline": [
@@ -900,7 +936,7 @@
       "id": "falcon",
       "title": "Falcon",
       "quadrant": "languages",
-      "description": ""
+      "description": "A multi-process, multi-fiber rack-compatible HTTP server built on top of async"
     },
     {
       "timeline": [
@@ -932,7 +968,7 @@
       "id": "minitest",
       "title": "MiniTest",
       "quadrant": "languages",
-      "description": ""
+      "description": "Small unit testing framework for Ruby"
     },
     {
       "timeline": [
@@ -948,7 +984,7 @@
       "id": "rr",
       "title": "RR",
       "quadrant": "languages",
-      "description": ""
+      "description": "A test double framework for Ruby"
     },
     {
       "timeline": [
@@ -956,15 +992,15 @@
           "moved": 0,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "No longer maintained by the community. Use headless Chrome or other modern alternatives"
         }
       ],
-      "url": "#",
+      "url": "https://phantomjs.org/",
       "key": "phantom_js",
       "id": "phantom_js",
       "title": "PhantomJS",
       "quadrant": "languages",
-      "description": ""
+      "description": "A discontinued headless browser used for automating web page interaction"
     },
     {
       "timeline": [
@@ -972,15 +1008,15 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "We now deploy via setting kubernetes images"
         }
       ],
-      "url": "#",
+      "url": "https://github.com/capistrano/capistrano",
       "key": "capistrano",
       "id": "capistrano",
       "title": "Capistrano",
       "quadrant": "languages",
-      "description": ""
+      "description": "A tool written in Ruby for deploying applications using deployment scripts"
     },
     {
       "timeline": [
@@ -996,7 +1032,7 @@
       "id": "mysql",
       "title": "MySQL",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Open-source relational database management system (RDMS)"
     },
     {
       "timeline": [
@@ -1004,15 +1040,15 @@
           "moved": 0,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "We currently use MySQL due to in house expertise and tooling that has been built up"
         }
       ],
-      "url": "#",
+      "url": "https://www.postgresql.org/",
       "key": "postgresql",
       "id": "postgresql",
       "title": "PostgreSQL",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Open-source relational database management system (RDMS)"
     },
     {
       "timeline": [
@@ -1028,7 +1064,7 @@
       "id": "elasticsearch",
       "title": "ElasticSearch",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A distributed full-text search engine with an HTTP web interface and schema-free JSON documents"
     },
     {
       "timeline": [
@@ -1044,7 +1080,7 @@
       "id": "kafka",
       "title": "Kafka",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A distributed event store and stream-processing platform"
     },
     {
       "timeline": [
@@ -1060,7 +1096,7 @@
       "id": "kafka_racecar",
       "title": "Kafka Racecar",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Kafka consumer framework written in Ruby"
     },
     {
       "timeline": [
@@ -1076,7 +1112,7 @@
       "id": "redis",
       "title": "Redis",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Open-source in-memory storage, used as a distributed, in-memory key–value database, cache and message broker"
     },
     {
       "timeline": [
@@ -1084,7 +1120,7 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Redis is the preferred solution for a shared cache for use in web services"
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/84486097/Memcached",
@@ -1092,7 +1128,7 @@
       "id": "memcache",
       "title": "Memcache",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A shared memory cache used by the web platform and integrated into rails"
     },
     {
       "timeline": [
@@ -1105,10 +1141,10 @@
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/598638663/ElastiCache",
       "key": "aws_elasticache",
-      "id": "aws_elasticachee",
+      "id": "aws_elasticache",
       "title": "AWS ElastiCache",
       "quadrant": "data_management",
-      "description": ""
+      "description": "An in-memory cache in the AWS cloud, compatible with both Redis and Memcached"
     },
     {
       "timeline": [
@@ -1124,7 +1160,7 @@
       "id": "aws_s3",
       "title": "AWS S3",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Simple Storage Service (S3) is an object storage service offering scalability, data availability, security, and performance"
     },
     {
       "timeline": [
@@ -1132,15 +1168,15 @@
           "moved": 0,
           "ringId": "assess",
           "date": "2022-05-01",
-          "description": ""
+          "description": "DT Platform used it for DNI service (SourceTrak), no Invoca uses in production"
         }
       ],
-      "url": "#",
+      "url": "https://aws.amazon.com/dynamodb/",
       "key": "aws_dynamo",
       "id": "aws_dynamo",
       "title": "AWS Dynamo",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale"
     },
     {
       "timeline": [
@@ -1148,15 +1184,15 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Was used for holding Call conversion records that hit our API ahead of the call being imported, now converted to Kafka + Sidekiq. Consider ElasticSearch or AWS Dynamo."
         }
       ],
-      "url": "#",
+      "url": "https://github.com/mongodb/mongo",
       "key": "mongodb",
       "id": "mongodb",
       "title": "MongoDB",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A cross-platform, document-oriented NoSQL database"
     },
     {
       "timeline": [
@@ -1164,15 +1200,15 @@
           "moved": 0,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": ""
+          "description": "Was evaluated for Conversation Reporting warehouse - selected ElasticSearch instead"
         }
       ],
-      "url": "#",
+      "url": "https://aws.amazon.com/redshift/",
       "key": "redshift",
       "id": "redshift",
       "title": "Redshift",
       "quadrant": "data_management",
-      "description": ""
+      "description": "Cloud data warehousing solution by AWS"
     },
     {
       "timeline": [
@@ -1193,6 +1229,12 @@
     {
       "timeline": [
         {
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2023-01-01",
+          "description": "Using Databricks in production as a replacement for the data science team's JuyperHub infrastructure and notebooks, and to power Signal AI Studio"
+        },
+        {
           "moved": 0,
           "ringId": "trial",
           "date": "2022-05-01",
@@ -1204,7 +1246,7 @@
       "id": "databricks",
       "title": "DataBricks",
       "quadrant": "data_management",
-      "description": ""
+      "description": "A Cloud-based Data Engineering tool that is used to process/transform/explore large quantities of data"
     },
     {
       "timeline": [
@@ -1231,7 +1273,7 @@
           "description": ""
         }
       ],
-      "url": "#",
+      "url": "https://www.docker.com/products/docker-desktop/",
       "key": "docker_desktop",
       "id": "docker_desktop",
       "title": "Docker Desktop",
