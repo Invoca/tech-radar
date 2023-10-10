@@ -96,7 +96,7 @@
       "timeline": [
         {
           "moved": 1,
-          "ringId": "trial",
+          "ringId": "adopt",
           "date": "2022-05-01",
           "description": ""
         }
@@ -298,22 +298,6 @@
       "id": "react_testing_library",
       "title": "React Testing Library",
       "quadrant": "testing",
-      "description": ""
-    },
-    {
-      "timeline": [
-        {
-          "moved": 0,
-          "ringId": "adopt",
-          "date": "2022-05-01",
-          "description": ""
-        }
-      ],
-      "url": "#",
-      "key": "nodejs",
-      "id": "nodejs",
-      "title": "NodeJS",
-      "quadrant": "frameworks",
       "description": ""
     },
     {
