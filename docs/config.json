@@ -906,7 +906,7 @@
           "moved": 1,
           "ringId": "trial",
           "date": "2024-06-20",
-          "description": "Solid Queue is used in production with the Contact Center Agents service. It simplified the architecture by having a single DB for application and queueing"
+          "description": "Solid Queue is used in production with the Contact Center Agents service. It simplified the architecture by having a single DB for application and queuing"
         }
       ],
       "url": "https://github.com/rails/solid_queue",
