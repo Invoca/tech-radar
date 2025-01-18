@@ -1295,6 +1295,45 @@
       "title": "Docker Desktop",
       "quadrant": "infrastructure",
       "description": "Container Runtime for Local Development"
+    },
+    {
+      "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2025-01-01",
+          "description": "New usage is put on hold, and instead we should be using ActiveStorage instead"
+        },
+        {
+          "moved": 0,
+          "ringId": "adopted",
+          "date": "2009-01-01",
+          "description": ""
+        }
+      ],
+      "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/60525248550/Paperclip+Gem+deprecated",
+      "key": "paperclip",
+      "id": "paperclip",
+      "title": "Paperclip Gem",
+      "quadrant": "languages",
+      "description": "A file attachment library for ActiveRecord"
+    }
+    ,
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopted",
+          "date": "2025-01-01",
+          "description": ""
+        }
+      ],
+      "url": "https://guides.rubyonrails.org/active_storage_overview.html",
+      "key": "active_storage",
+      "id": "active_storage",
+      "title": "ActiveStorage",
+      "quadrant": "languages",
+      "description": "A file attachment library for ActiveRecord"
     }
   ]
 }
