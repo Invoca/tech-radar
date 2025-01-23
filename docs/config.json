@@ -1306,7 +1306,7 @@
         },
         {
           "moved": 0,
-          "ringId": "adopted",
+          "ringId": "adopt",
           "date": "2009-01-01",
           "description": ""
         }
@@ -1323,7 +1323,7 @@
       "timeline": [
         {
           "moved": 0,
-          "ringId": "adopted",
+          "ringId": "adopt",
           "date": "2025-01-01",
           "description": ""
         }
