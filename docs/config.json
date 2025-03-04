@@ -586,7 +586,7 @@
           "moved": 0,
           "ringId": "adopt",
           "date": "2022-05-01",
-          "description": ""
+          "description": "For use within data science contexts and internal services interfacing with AI models or python libraries. Surface area should be limited, and SQL / ORM based services should leverage Ruby on Rails."
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59579334958/Python",
@@ -640,7 +640,7 @@
           "moved": -1,
           "ringId": "hold",
           "date": "2022-05-01",
-          "description": "Prefer Rust or Go over Elixir"
+          "description": "Prefer Go over Elixir"
         }
       ],
       "url": "https://elixir-lang.org/",
@@ -668,6 +668,12 @@
     },
     {
       "timeline": [
+        {
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2025-02-01",
+          "description": "PNAPI Bulk Proxy was removed, in favor of completing the Ruby 3 + Async + Falcon transition of PNAPI. We do not have any Rust experts here and don't yet have a business case to invest in Rust."
+        },
         {
           "moved": 1,
           "ringId": "trial",
@@ -710,7 +716,7 @@
           "moved": 0,
           "ringId": "adopt",
           "date": "2008-02-01",
-          "description": "Used by our main web application and additional smaller services"
+          "description": "Used by our main web application and additional smaller services. Should use for most Restful or GraphQL APIs."
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/2197291201/Rails+at+Invoca+High+Level+Overview",
