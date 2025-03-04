@@ -586,7 +586,7 @@
           "moved": 0,
           "ringId": "adopt",
           "date": "2022-05-01",
-          "description": "For use within data science contexts and internal services interfacing with AI models. Surface area should be limited, and SQL / ORM based services should leverage Ruby on Rails."
+          "description": "For use within data science contexts and internal services interfacing with AI models or python libraries. Surface area should be limited, and SQL / ORM based services should leverage Ruby on Rails."
         }
       ],
       "url": "https://invoca.atlassian.net/wiki/spaces/DEV/pages/59579334958/Python",
