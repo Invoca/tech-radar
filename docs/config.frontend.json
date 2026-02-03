@@ -271,9 +271,9 @@
     {
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "adopt",
-          "date": "2022-05-01",
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2026-02-03",
           "description": ""
         }
       ],
@@ -287,9 +287,9 @@
     {
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "trial",
-          "date": "2022-05-01",
+          "moved": 1,
+          "ringId": "adopt",
+          "date": "2026-02-03",
           "description": ""
         }
       ],
@@ -383,9 +383,9 @@
     {
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "adopt",
-          "date": "2022-05-01",
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2026-02-03",
           "description": ""
         }
       ],
@@ -393,6 +393,38 @@
       "key": "lerna",
       "id": "lerna",
       "title": "Lerna",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "trial",
+          "date": "2026-02-03",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "pnpm",
+      "id": "pnpm",
+      "title": "pnpm",
+      "quadrant": "libraries",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2026-02-03",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "highcharts",
+      "id": "highcharts",
+      "title": "Highcharts",
       "quadrant": "libraries",
       "description": ""
     },
@@ -409,6 +441,22 @@
       "key": "github_actions",
       "id": "github_actions",
       "title": "Github Actions",
+      "quadrant": "frameworks",
+      "description": ""
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "adopt",
+          "date": "2026-02-03",
+          "description": ""
+        }
+      ],
+      "url": "#",
+      "key": "buildkite",
+      "id": "buildkite",
+      "title": "Buildkite",
       "quadrant": "frameworks",
       "description": ""
     },
@@ -447,9 +495,9 @@
     {
       "timeline": [
         {
-          "moved": 0,
-          "ringId": "adopt",
-          "date": "2022-05-01",
+          "moved": -1,
+          "ringId": "hold",
+          "date": "2026-02-03",
           "description": ""
         }
       ],
@@ -464,8 +512,8 @@
       "timeline": [
         {
           "moved": 1,
-          "ringId": "hold",
-          "date": "2022-05-01",
+          "ringId": "adopt",
+          "date": "2026-02-03",
           "description": ""
         }
       ],
