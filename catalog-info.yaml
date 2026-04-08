@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tech-radar
+  title: tech-radar
+  description: "Visualizing our technology choices"
+  tags:
+    - javascript
+  annotations:
+    backstage.io/source-location: url:https://github.com/Invoca/tech-radar/
+    github.com/project-slug: Invoca/tech-radar
+    buildkite.com/project-slug: invoca/tech-radar
+spec:
+  type: service
+  lifecycle: production
+  owner: octothorpe
+  # system: TODO — see https://github.com/Invoca/backstage-catalog
